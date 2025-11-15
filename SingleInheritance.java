@@ -1,4 +1,4 @@
-class Student{
+class Stud{
     String name;
     int rollNo;
 
@@ -14,7 +14,7 @@ class Student{
 }
 
 
-class Marks extends Student {
+class Marks extends Stud {
     int mark1, mark2;
 
     void getMarks(int m1, int m2) {
